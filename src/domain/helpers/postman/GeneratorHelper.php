@@ -5,7 +5,7 @@ namespace yii2tool\restclient\domain\helpers\postman;
 use yii2lab\extension\common\helpers\StringHelper;
 use yii2lab\extension\web\enums\HttpMethodEnum;
 use yii2tool\restclient\domain\entities\RequestEntity;
-use yii2tool\restclient\domain\helpers\MiscHelper;
+use yii2lab\rest\domain\helpers\MiscHelper;
 
 class GeneratorHelper {
 	

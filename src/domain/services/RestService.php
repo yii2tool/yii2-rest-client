@@ -7,7 +7,7 @@ use yii2lab\domain\data\Query;
 use yii2lab\domain\services\base\BaseActiveService;
 use yii2lab\extension\yii\helpers\ArrayHelper;
 use yii2tool\restclient\domain\entities\RestEntity;
-use yii2tool\restclient\domain\helpers\MiscHelper;
+use yii2lab\rest\domain\helpers\MiscHelper;
 use yii2tool\restclient\domain\repositories\ar\RestRepository;
 use yii2lab\extension\store\StoreFile;
 

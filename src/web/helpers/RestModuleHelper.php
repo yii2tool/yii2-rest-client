@@ -6,7 +6,7 @@ use yii\helpers\ArrayHelper;
 use yii2lab\app\domain\helpers\EnvService;
 use yii2lab\extension\web\helpers\Behavior;
 use yii2tool\restclient\domain\enums\RestPermissionEnum;
-use yii2tool\restclient\domain\helpers\MiscHelper;
+use yii2lab\rest\domain\helpers\MiscHelper;
 
 class RestModuleHelper {
 	

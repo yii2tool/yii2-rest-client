@@ -6,7 +6,7 @@ use Yii;
 use yii\web\Controller;
 use yii2lab\extension\web\helpers\Behavior;
 use yii2lab\navigation\domain\widgets\Alert;
-use yii2tool\restclient\domain\helpers\MiscHelper;
+use yii2lab\rest\domain\helpers\MiscHelper;
 use yii2tool\restclient\domain\helpers\postman\PostmanHelper;
 
 /**
