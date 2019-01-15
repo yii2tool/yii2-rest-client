@@ -4,7 +4,8 @@ namespace yii2tool\restclient\domain\helpers;
 
 use yii2lab\extension\yii\helpers\ArrayHelper;
 use yii2lab\extension\web\enums\HttpHeaderEnum;
-use yii2tool\restclient\domain\entities\ResponseEntity;
+use yii2lab\rest\domain\entities\ResponseEntity;
+use yii2lab\rest\domain\helpers\RestHelper;
 
 class AuthorizationHelper {
 	
