@@ -2,7 +2,7 @@
 
 namespace yii2tool\restclient\domain;
 
-use yii2lab\domain\enums\Driver;
+use yii2rails\domain\enums\Driver;
 use yii2tool\restclient\domain\services\MockService;
 use yii2tool\restclient\domain\services\RestService;
 
@@ -14,7 +14,7 @@ use yii2tool\restclient\domain\services\RestService;
  * @property MockService $mock
  * @property-read \yii2tool\restclient\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
-class Domain extends \yii2lab\domain\Domain {
+class Domain extends \yii2rails\domain\Domain {
 	
 	public function config() {
 		return [

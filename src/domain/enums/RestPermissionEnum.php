@@ -2,7 +2,7 @@
 
 namespace yii2tool\restclient\domain\enums;
 
-use yii2lab\extension\enum\base\BaseEnum;
+use yii2rails\extension\enum\base\BaseEnum;
 
 class RestPermissionEnum extends BaseEnum
 {

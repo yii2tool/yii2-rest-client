@@ -7,7 +7,7 @@ use yii\base\BootstrapInterface;
 use yii\base\InvalidConfigException;
 use yii\web\Application;
 use yii\web\ForbiddenHttpException;
-use yii2lab\domain\helpers\DomainHelper;
+use yii2rails\domain\helpers\DomainHelper;
 
 /**
  * Class Module

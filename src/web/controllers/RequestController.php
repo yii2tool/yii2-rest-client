@@ -4,7 +4,7 @@ namespace yii2tool\restclient\web\controllers;
 
 use Yii;
 use yii\web\Controller;
-use yii2lab\extension\yii\helpers\ArrayHelper;
+use yii2rails\extension\yii\helpers\ArrayHelper;
 use yii2tool\restclient\domain\entities\RestEntity;
 use yii2tool\restclient\web\helpers\CollectionHelper;
 use yii2tool\restclient\web\helpers\RestHelper;

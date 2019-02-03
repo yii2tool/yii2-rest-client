@@ -2,7 +2,7 @@
 
 namespace yii2tool\restclient\web\helpers;
 
-use yii2lab\extension\yii\helpers\ArrayHelper;
+use yii2rails\extension\yii\helpers\ArrayHelper;
 
 class CollectionHelper {
 	

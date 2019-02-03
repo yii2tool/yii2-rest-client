@@ -2,15 +2,15 @@
 
 namespace yii2tool\restclient\domain\services;
 
-use yii2lab\domain\data\Query;
-use yii2lab\domain\services\base\BaseActiveService;
-use yii2lab\extension\encrypt\enums\HashAlgoEnum;
-use yii2lab\extension\code\helpers\generator\EnumGeneratorHelper;
-use yii2lab\extension\yii\helpers\FileHelper;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\services\base\BaseActiveService;
+use yii2rails\extension\encrypt\enums\HashAlgoEnum;
+use yii2rails\extension\code\helpers\generator\EnumGeneratorHelper;
+use yii2rails\extension\yii\helpers\FileHelper;
 use yii2tool\restclient\domain\entities\MockEntity;
 use yii2tool\restclient\domain\entities\RequestEntity;
 use yii2tool\restclient\domain\entities\ResponseEntity;
-use yii2lab\extension\store\StoreFile;
+use yii2rails\extension\store\StoreFile;
 use yii2mod\helpers\ArrayHelper;
 
 class MockService extends BaseActiveService {

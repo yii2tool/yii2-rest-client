@@ -4,8 +4,8 @@ namespace yii2tool\restclient\domain\helpers\postman;
 
 use yii\helpers\Json;
 use yii\web\ServerErrorHttpException;
-use yii2lab\extension\common\helpers\StringHelper;
-use yii2lab\extension\yii\helpers\ArrayHelper;
+use yii2rails\extension\common\helpers\StringHelper;
+use yii2rails\extension\yii\helpers\ArrayHelper;
 use yii2tool\restclient\domain\entities\RequestEntity;
 use yii2lab\rest\domain\helpers\MiscHelper;
 use yii2tool\restclient\domain\helpers\RouteHelper;

@@ -3,13 +3,13 @@
 namespace yii2tool\restclient\domain\services;
 
 use yii\web\NotFoundHttpException;
-use yii2lab\domain\data\Query;
-use yii2lab\domain\services\base\BaseActiveService;
-use yii2lab\extension\yii\helpers\ArrayHelper;
+use yii2rails\domain\data\Query;
+use yii2rails\domain\services\base\BaseActiveService;
+use yii2rails\extension\yii\helpers\ArrayHelper;
 use yii2tool\restclient\domain\entities\RestEntity;
 use yii2lab\rest\domain\helpers\MiscHelper;
 use yii2tool\restclient\domain\repositories\ar\RestRepository;
-use yii2lab\extension\store\StoreFile;
+use yii2rails\extension\store\StoreFile;
 
 /**
  * Class RestService

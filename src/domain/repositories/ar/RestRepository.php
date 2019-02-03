@@ -2,7 +2,7 @@
 
 namespace yii2tool\restclient\domain\repositories\ar;
 
-use yii2lab\extension\activeRecord\repositories\base\BaseActiveArRepository;
+use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
 
 class RestRepository extends BaseActiveArRepository {
 	

@@ -2,7 +2,7 @@
 
 namespace yii2tool\restclient\web\helpers;
 
-use yii2lab\extension\store\Store;
+use yii2rails\extension\store\Store;
 
 class Token
 {

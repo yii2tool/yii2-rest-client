@@ -3,8 +3,8 @@
 namespace yii2tool\restclient\web\helpers;
 
 use yii\helpers\ArrayHelper;
-use yii2lab\app\domain\helpers\EnvService;
-use yii2lab\extension\web\helpers\Behavior;
+use yii2rails\app\domain\helpers\EnvService;
+use yii2rails\extension\web\helpers\Behavior;
 use yii2tool\restclient\domain\enums\RestPermissionEnum;
 use yii2lab\rest\domain\helpers\MiscHelper;
 
