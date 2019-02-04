@@ -1,12 +1,10 @@
 <?php
 
-namespace yii2tool\restclient\domain\repositories\base;
+namespace yii2lab\rest\domain\repositories\base;
 
+use yii2lab\rest\domain\traits\RestTrait;
 use yii2rails\domain\repositories\BaseRepository;
-use yii2tool\restclient\domain\traits\RestTrait;
 
-abstract class BaseRestRepository extends BaseRepository {
+abstract class BaseRestRepository extends \yii2bundle\rest\domain\repositories\base\BaseRestRepository {
 
-	use RestTrait;
-	
 }
