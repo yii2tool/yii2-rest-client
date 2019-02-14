@@ -4,6 +4,7 @@ namespace yii2tool\restclient\domain\models;
 
 use yii\db\ActiveRecord;
 use yii2lab\db\domain\behaviors\serialize\SerializeBehavior;
+use yii2lab\db\domain\helpers\TableHelper;
 
 class Rest extends ActiveRecord
 {
@@ -13,7 +14,7 @@ class Rest extends ActiveRecord
 	 */
 	public static function tableName()
 	{
-		return '{{%rest}}';
+		return TableHelper::getGlobalName('rest_collection');
 	}
 	
 	public function behaviors()
