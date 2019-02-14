@@ -26,7 +26,7 @@ class AuthorizationHelper {
 		return $items;
 	}
 	
-	private static function genAuthRequestEntity(TestEntity $testEntity) {
+	private static function genAuthRequestEntity($testEntity) : RequestEntity {
 		$requestEntity = new RequestEntity();
 		$requestEntity->uri = 'auth';
 		$requestEntity->method = HttpMethodEnum::POST;
