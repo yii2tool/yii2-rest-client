@@ -6,7 +6,7 @@ use Yii;
 use yii\httpclient\Exception;
 use yii\httpclient\Response;
 use yii\web\NotFoundHttpException;
-use yii2tool\restclient\domain\entities\RequestEntity;
+use yii2lab\rest\domain\entities\RequestEntity;
 use yii2tool\restclient\web\models\ResponseRecord;
 
 class Request

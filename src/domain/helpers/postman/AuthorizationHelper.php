@@ -4,7 +4,7 @@ namespace yii2tool\restclient\domain\helpers\postman;
 
 use Yii;
 use yii2rails\extension\web\enums\HttpMethodEnum;
-use yii2tool\restclient\domain\entities\RequestEntity;
+use yii2lab\rest\domain\entities\RequestEntity;
 use yii2module\account\domain\v2\entities\TestEntity;
 
 class AuthorizationHelper {

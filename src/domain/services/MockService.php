@@ -8,8 +8,8 @@ use yii2rails\extension\encrypt\enums\HashAlgoEnum;
 use yii2rails\extension\code\helpers\generator\EnumGeneratorHelper;
 use yii2rails\extension\yii\helpers\FileHelper;
 use yii2tool\restclient\domain\entities\MockEntity;
-use yii2tool\restclient\domain\entities\RequestEntity;
-use yii2tool\restclient\domain\entities\ResponseEntity;
+use yii2lab\rest\domain\entities\RequestEntity;
+use yii2lab\rest\domain\entities\ResponseEntity;
 use yii2rails\extension\store\StoreFile;
 use yii2mod\helpers\ArrayHelper;
 

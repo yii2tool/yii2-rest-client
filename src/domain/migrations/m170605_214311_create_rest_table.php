@@ -7,7 +7,7 @@ use yii2lab\db\domain\db\MigrationCreateTable as Migration;
 */
 class m170605_214311_create_rest_table extends Migration
 {
-	public $table = 'rest';
+	public $table = 'rest_collection';
 
 	/**
 	 * @inheritdoc
