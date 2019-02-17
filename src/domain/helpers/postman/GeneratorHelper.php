@@ -51,6 +51,8 @@ class GeneratorHelper {
 		if($requestEntity->authorization) {
 			$headers['Authorization'] = self::genVariable('token');
 		}
+        $headers['Time-Zone'] = self::genVariable('timezone');
+        $headers['Language'] = self::genVariable('language');
 		if($headers) {
 			foreach($headers as $key => $value) {
 				$result[] = [

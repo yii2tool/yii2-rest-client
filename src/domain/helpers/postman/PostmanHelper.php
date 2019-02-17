@@ -49,14 +49,21 @@ class PostmanHelper {
 			$groupData['item'] = $items;
 			$groupCollection[] = $groupData;
 		}
-		
+
+        $initItems = [
+            'name' => 'init',
+            'description' => 'Initialize',
+            'item' => InitHelper::genCollection(),
+        ];
+
 		$authItems = [
 			'name' => 'auth by',
 			'description' => '',
 			'item' => AuthorizationHelper::genAuthCollection(),
 		];
-		
+
 		$groupCollection = ArrayHelper::merge([$authItems], $groupCollection);
+        $groupCollection = ArrayHelper::merge([$initItems], $groupCollection);
 		
 		return [
 			'info' => [
