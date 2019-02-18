@@ -20,7 +20,7 @@ class GeneratorHelper {
 		return $result;
 	}
 	
-	public static function genEvent($preRequest = null, $test = null) {
+	public static function genEvent(string $preRequest = null, string $test = null) {
 		$result = [];
 		if($preRequest) {
 			$result[] = [
