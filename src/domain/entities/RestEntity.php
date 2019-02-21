@@ -31,7 +31,7 @@ class RestEntity extends BaseEntityWithId {
 	protected $tag;
 	protected $module_id;
 	protected $request;
-	protected $response;
+	//protected $response;
 	protected $method;
 	protected $endpoint;
 	protected $description;
