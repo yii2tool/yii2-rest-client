@@ -63,9 +63,9 @@ class InitHelper {
                 'header' => [],
                 'body' => [],
                 'url' => [
-                    'raw' => 'http://localhost/',
+                    'raw' => 'https://www.google.ru',
                     'host' => [
-                        'http://localhost/',
+                        'https://www.google.ru',
                     ],
                     'path' => [],
                 ],
