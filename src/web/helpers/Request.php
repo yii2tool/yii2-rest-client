@@ -44,7 +44,7 @@ class Request
 						<ul>
 							<li>You have an incorrect domain. See the link: <a href="' . $client->baseUrl . '" target="_blank">' . $client->baseUrl . '</a></li>
 						</ul>';
-		        throw new NotFoundHttpException($message);
+		        throw new NotFoundHttpException($message, 0, $e);
 	        }
 		}
         return $response;
