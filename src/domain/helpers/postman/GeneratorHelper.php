@@ -66,7 +66,7 @@ class GeneratorHelper {
 	
 	public static function genPostBody(RequestEntity $requestEntity) {
 		$result = null;
-		if($requestEntity->method == HttpMethodEnum::POST && $requestEntity->data) {
+		if(in_array($requestEntity->method, [HttpMethodEnum::POST, HttpMethodEnum::PUT]) && $requestEntity->data) {
 			$body = [];
 			foreach($requestEntity->data as $key => $value) {
 				$body[] = [
