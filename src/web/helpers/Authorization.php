@@ -5,7 +5,7 @@ namespace yii2tool\restclient\web\helpers;
 use Yii;
 use yii2rails\extension\yii\helpers\ArrayHelper;
 use yii2tool\restclient\domain\helpers\AuthorizationHelper;
-use yii2module\account\domain\v2\entities\LoginEntity;
+use yii2module\account\domain\v3\entities\LoginEntity;
 
 class Authorization
 {
