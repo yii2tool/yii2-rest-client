@@ -7,7 +7,7 @@ use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii2rails\extension\web\helpers\Behavior;
-use yii2lab\navigation\domain\widgets\Alert;
+use yii2bundle\navigation\domain\widgets\Alert;
 
 /**
  * Class HistoryController
